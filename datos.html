@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tecnologías Accesibles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/datos.css">
+</head>
+<body>
+  <header role="banner">
+    <h1>Base de Tecnologías Accesibles</h1>
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="datos.html">Tecnologías</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section>
+      <h2>Tecnologías para personas con discapacidad visual</h2>
+      <p>Consulta el siguiente catálogo. Los datos se cargan desde un archivo XML usando JavaScript.</p>
+      <div id="info"></div>
+      <table id="tabla">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="3" class="mensaje">Cargando datos</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 | Creado por Erasmo Renzo Fernando Ortiz Lara | Fundamentos de tecnologias web</p>
+  </footer>
+
+<script src="scripts/datos.js"></script>
+
+</body>
+</html>

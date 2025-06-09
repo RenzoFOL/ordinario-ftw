@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Accesibilidad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/contacto.css">
+</head>
+<body>
+  <header role="banner">
+    <h1>Contáctanos</h1>
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="datos.html">Tecnologías</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section>
+      <h2>Formulario de contacto</h2>
+      <form id="formContacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+      </form>
+
+      <div id="mensajeExito" class="mensaje">
+        ¡Tu mensaje fue enviado correctamente!
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 | Creado por Erasmo Renzo Fernando Ortiz Lara | Fundamentos de tecnologias web</p>
+  </footer>
+
+<script src="scripts/contacto.js"></script>
+</body>
+</html>

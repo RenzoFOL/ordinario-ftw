@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tecnologias [
+    <!ELEMENT tecnologias (herramienta*)>
+    <!ELEMENT herramienta (nombre, tipo, descripcion)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+]>
+<tecnologias>
+    <herramienta>
+        <nombre>NVDA (Non Visual Desktop Access)</nombre>
+        <tipo>Lector de Pantalla</tipo>
+        <descripcion>Software gratuito y de código abierto que permite a personas con discapacidad visual navegar por Windows usando síntesis de voz y braille. Compatible con la mayoría de aplicaciones y navegadores web modernos.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>JAWS (Job Access With Speech)</nombre>
+        <tipo>Lector de Pantalla</tipo>
+        <descripcion>Uno de los lectores de pantalla más populares y completos para Windows. Ofrece funciones avanzadas de navegación web, soporte para múltiples idiomas y compatibilidad extensa con aplicaciones de oficina.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>VoiceOver</nombre>
+        <tipo>Lector de Pantalla</tipo>
+        <descripcion>Lector de pantalla integrado en todos los dispositivos Apple (Mac, iPhone, iPad). Proporciona descripciones detalladas de elementos en pantalla y gestos intuitivos para navegación táctil.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>TalkBack</nombre>
+        <tipo>Lector de Pantalla</tipo>
+        <descripcion>Servicio de accesibilidad integrado en Android que proporciona retroalimentación por voz y táctil. Permite navegar dispositivos Android mediante gestos y comandos de voz.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>Línea Braille Refreshable</nombre>
+        <tipo>Hardware Braille</tipo>
+        <descripcion>Dispositivo táctil que convierte texto digital en braille físico mediante celdas actualizables. Permite lectura silenciosa y eficiente de documentos digitales para usuarios de braille.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>Bastón Inteligente WeWALK</nombre>
+        <tipo>Dispositivo de Navegación</tipo>
+        <descripcion>Bastón blanco mejorado con tecnología que detecta obstáculos aéreos, integración con smartphone y navegación GPS. Vibra para alertar sobre obstáculos y proporciona direcciones por audio.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>Teclado de Alto Contraste</nombre>
+        <tipo>Hardware Adaptado</tipo>
+        <descripcion>Teclado especializado con teclas de gran tamaño, etiquetas en braille y alto contraste visual. Facilita la escritura para personas con baja visión o ceguera.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>OrCam MyEye</nombre>
+        <tipo>Dispositivo Portátil</tipo>
+        <descripcion>Cámara inteligente que se adhiere a gafas y lee texto en voz alta, reconoce productos, caras y colores. Funciona offline y proporciona independencia en actividades diarias.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>Magnificador de Pantalla</nombre>
+        <tipo>Software de Ampliación</tipo>
+        <descripcion>Herramienta que amplía elementos en pantalla hasta 16x su tamaño original. Incluye opciones de alto contraste, inversión de colores y seguimiento del cursor para usuarios con baja visión.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>Reconocimiento de Voz Dragon</nombre>
+        <tipo>Software de Dictado</tipo>
+        <descripcion>Sistema avanzado de reconocimiento de voz que convierte habla en texto. Permite control por voz de aplicaciones y navegación web, reduciendo la dependencia del teclado y mouse.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>Be My Eyes</nombre>
+        <tipo>Aplicación Móvil</tipo>
+        <descripcion>Aplicación que conecta personas con discapacidad visual con voluntarios videntes a través de videollamadas. Proporciona asistencia visual remota para tareas cotidianas.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>Seeing AI</nombre>
+        <tipo>Aplicación de IA</tipo>
+        <descripcion>Aplicación de Microsoft que usa inteligencia artificial para describir el mundo visual. Puede leer texto, identificar productos, describir escenas y reconocer personas.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>Sistema de Navegación BlindSquare</nombre>
+        <tipo>Aplicación GPS</tipo>
+        <descripcion>Aplicación de navegación especializada que proporciona información detallada sobre el entorno mediante GPS y brújula. Anuncia puntos de interés, intersecciones y direcciones paso a paso.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>Impresora Braille</nombre>
+        <tipo>Hardware de Impresión</tipo>
+        <descripcion>Dispositivo especializado que convierte documentos digitales en texto braille impreso. Permite producir materiales educativos y documentos profesionales en formato táctil.</descripcion>
+    </herramienta>
+    <herramienta>
+        <nombre>Lupa Electrónica CCTV</nombre>
+        <tipo>Dispositivo de Ampliación</tipo>
+        <descripcion>Sistema de magnificación que utiliza cámara y monitor para ampliar texto y objetos. Ofrece diferentes niveles de zoom, contraste ajustable y iluminación LED para lectura detallada.</descripcion>
+    </herramienta>
+</tecnologias>

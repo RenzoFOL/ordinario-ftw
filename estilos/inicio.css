@@ -1,0 +1,92 @@
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+
+    header, nav, main, footer {
+      max-width: 900px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    h1 {
+      background: royalblue;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: royalblue;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      background: white;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+
+    .tarjetas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .tarjeta {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: royalblue;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      margin-top: 2rem;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+
+    .visually-hidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    white-space: nowrap;
+  }
+  .estadistica-grafico {
+    max-width: 300px;
+    margin: 2rem auto;
+  }
